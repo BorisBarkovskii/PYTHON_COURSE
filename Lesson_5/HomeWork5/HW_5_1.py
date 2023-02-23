@@ -10,5 +10,4 @@ def pow_num(a, b):
         return pow_num(a, b + 1) * 1 / a
     return pow_num(a, b - 1) * a
 
-
 print(pow_num(int(input()), int(input())))
